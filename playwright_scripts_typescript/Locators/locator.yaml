@@ -1,0 +1,21 @@
+elements:
+  about_us:
+    locator: "a:has-text('About Us')"
+    expected_text: "About Us"
+    description: "About Us navigation link"
+  
+  insights:
+    locator: "a:has-text('Insights')"
+    expected_text: "Insights"
+    description: "Insights navigation link"
+  
+  projects:
+    locator: "a:has-text('Projects')"
+    expected_text: "Projects"
+    description: "Projects navigation link"
+  
+  contact:
+    locator: "a:has-text('Contact')"
+    expected_text: "Contact"
+    description: "Contact navigation link"
+
